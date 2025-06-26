@@ -3,6 +3,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zone99 | Motor Aksesuarları</title>
+  <meta name="description" content="Zone99 motor aksesuar mağazası - kaliteli kasklar, eldivenler, LED farlar ve daha fazlası. Hız tutkunları için özel ürünler burada!">
+  <meta name="keywords" content="motor aksesuar, kask, eldiven, led far, motosiklet ekipmanları, Zone99">
+  <meta name="author" content="Zone99 Garage">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -77,6 +80,27 @@ footer {
   text-align: center;
   padding: 20px;
   color: #888;
+  position: relative;
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 999;
+}
+.whatsapp-button:hover {
+  background-color: #1ebc59;
 }
 
   </style>
@@ -88,6 +112,7 @@ footer {
     <a href="#">Anasayfa</a>
     <a href="#urunler">Ürünler</a>
     <a href="#iletisim">İletişim</a>
+    <a href="/admin-panel">Admin Panel</a>
   </nav>  <section class="hero">
     <h2>Hız Tutkunları İçin Özel Aksesuarlar</h2>
   </section>  <section class="products" id="urunler">
@@ -111,6 +136,8 @@ footer {
     </div>
   </section>  <footer id="iletisim">
     <p>© 2025 Zone99 Motor Aksesuar | WhatsApp: 0 5xx xxx xx xx | Instagram: @zone99garage</p>
-  </footer>
+  </footer>  <a class="whatsapp-button" href="https://wa.me/905xxxxxxxxx" target="_blank" title="Bize WhatsApp'tan ulaşın">
+    🟢
+  </a>
 </body>
 </html>
